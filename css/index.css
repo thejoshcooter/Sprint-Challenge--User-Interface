@@ -79,6 +79,7 @@ p {
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
+	margin: 10px 0;
 	border: 2px solid red;
 }
 
@@ -86,6 +87,12 @@ p {
 	text-decoration: none;
 	color: #000;
 	font-weight: bold;
+	padding-right: 30px;
+}
+
+.jumbotron {
+	width: 100%;
+	margin: 10px 0;
 }
 
 .top-content {
