@@ -221,7 +221,7 @@ footer nav a {
 	font-weight: bold;
 }
 
-.introduction {
+.full-width-article {
 	display: flex;
 	flex-flow: column wrap;
 	padding: 20px;
@@ -234,6 +234,24 @@ footer nav a {
 	justify-content: space-evenly;
 }
 
-.about-middle-content .card {
+.card {
 	width: 380px;
+	display: flex;
+	flex-flow: column nowrap;
+	margin: 25px 0;
+	border-bottom: 1px dashed #000;
+}
+
+.card h2, .card p {
+	margin: 10px 0;
+}
+
+.card button {
+	width: 120px;
+	border: 2px solid #000;
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 10px 20px;
+	margin: 10px 0 20px;
+	font-weight: bold;
 }
