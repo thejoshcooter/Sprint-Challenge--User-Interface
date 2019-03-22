@@ -66,6 +66,15 @@ p {
     line-height: 1.4;
 }
 
+/* test styles */
+.test {
+	border: 2px solid red;
+}
+
+.test2 {
+	border: 2px solid green;
+}
+
 /* end reset styles */
 
 .container {
@@ -205,3 +214,5 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page Styles */
