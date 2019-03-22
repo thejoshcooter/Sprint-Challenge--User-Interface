@@ -71,8 +71,6 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
-		/* delete when finished */
-		border: 3px dashed red;
 }
 
 .main-nav {
@@ -80,7 +78,6 @@ p {
 	justify-content: space-between;
 	align-items: baseline;
 	margin: 10px 0;
-	border: 2px solid red;
 }
 
 .main-nav a {
