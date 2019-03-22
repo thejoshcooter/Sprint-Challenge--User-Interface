@@ -66,6 +66,8 @@ p {
     line-height: 1.4;
 }
 
+/* end reset styles */
+
 /* test styles */
 .test {
 	border: 2px solid red;
@@ -74,8 +76,7 @@ p {
 .test2 {
 	border: 2px solid green;
 }
-
-/* end reset styles */
+/* end test styles */
 
 .container {
     width: 800px;
@@ -98,7 +99,7 @@ p {
 
 .jumbotron {
 	width: 100%;
-	margin: 10px 0;
+	margin: 30px 0 20px;
 }
 
 .top-content {
@@ -235,7 +236,7 @@ footer nav a {
 }
 
 .card {
-	width: 380px;
+	width: 360px;
 	display: flex;
 	flex-flow: column nowrap;
 	margin: 25px 0;
