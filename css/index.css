@@ -216,3 +216,24 @@ footer nav a {
 }
 
 /* About Page Styles */
+
+.about-page h1, .about-page h2, .about-page h3{
+	font-weight: bold;
+}
+
+.introduction {
+	display: flex;
+	flex-flow: column wrap;
+	padding: 20px;
+	border-bottom: 1px dashed #000;
+}
+
+.about-middle-content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+
+.about-middle-content .card {
+	width: 380px;
+}
